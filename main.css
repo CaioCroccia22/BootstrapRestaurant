@@ -1,0 +1,14 @@
+
+/* Navbar */
+
+
+/* Trocar a cor de fundo da navbar */
+.navbar{
+    background-color: #e15f41;
+}
+
+/* Trocar a cor de fundo de cor da fonte do menu ativo */
+.navbar .nav .nav-link.active {
+    background-color: #fff;
+    color: #e15f41;
+}
