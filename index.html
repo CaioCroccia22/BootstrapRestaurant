@@ -26,7 +26,7 @@
         <div class="container">
 
             <!-- Logo -->
-            <h1 class="navbar-brand">
+            <h1 class="navbar-brand m-0">
                 Nome do restaurante
             </h1>
 
@@ -37,7 +37,9 @@
             <!-- Navbar Menu -->
              <!-- nav-pills -> Os links tem aparência de botão, os links precisam estar ativado para colocar o icone de botão -->
             <div class="collapse navbar-collapse justify-content-end" id="menu-navegacao">
-                <ul class="nav nav-pills">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <!-- D-block -> para os icones ficarem um embaixo do outro no visualização tablet -->
+                     <!-- d-md-flex ->  Quando a tela for media propriedade, apatir do breakpoint, o display vai ser flex -->
                     <li class="nav-item fw-bold">
                         <a class="nav-link active" href="#">
                             <i class="bi bi-house-door me-1"></i>
