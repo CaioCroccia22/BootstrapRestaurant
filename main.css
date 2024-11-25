@@ -33,3 +33,26 @@ body{
 .navbar-brand{
     font-family: Pacifico, cursive;
 }
+
+/* Caroussel */
+
+#sobre-o-restaurante{
+    height: 50vh;
+    position: relative;
+    /* Controla o posicionamento */
+    overflow: hidden;
+    /* As partes fora do elemento não aparecem */
+}
+
+img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next{
+    height: 40vh;
+}
