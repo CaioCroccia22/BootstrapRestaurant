@@ -36,13 +36,16 @@ body{
 
 /* Caroussel */
 
-#sobre-o-restaurante{
+.carousel.slide{
     height: 50vh;
-    position: relative;
-    /* Controla o posicionamento */
-    overflow: hidden;
-    /* As partes fora do elemento não aparecem */
+   
 }
+
+.carousel-inner{
+    height: 100%;
+}
+
+
 
 img{
     object-fit: cover;
@@ -52,7 +55,3 @@ img{
 }
 
 
-.carousel-control-prev,
-.carousel-control-next{
-    height: 40vh;
-}

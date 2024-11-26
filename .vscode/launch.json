@@ -6,7 +6,7 @@
         "version": "0.2.0",
         "configurations": [
             {
-                "type": "chrome",
+                "type": "msedge",
                 "request": "launch",
                 "name": "Abrir index.html no Chrome",
                 "file": "${workspaceFolder}/index.html"
