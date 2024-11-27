@@ -19,14 +19,14 @@
 <body>
     <!-- Header -->
     <!-- Sticky-top -> Classe para o header acompanhar durante a rolagem -->
-    <header class="navbar navbar-expand-lg sticky-top p-4">
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="header">
 
 
         <!-- Containerezação do titulo e menu -->
         <div class="container">
 
             <!-- Logo -->
-            <h1 class="navbar-brand m-0">
+            <h1 class="navbar-brand m-0 section-title">
                 Nome do restaurante
             </h1>
 
@@ -41,7 +41,7 @@
                     <!-- D-block -> para os icones ficarem um embaixo do outro no visualização tablet -->
                      <!-- d-md-flex ->  Quando a tela for media propriedade, apatir do breakpoint, o display vai ser flex -->
                     <li class="nav-item fw-bold">
-                        <a class="nav-link active" href="#">
+                        <a class="nav-link" href="#sobre-o-restaurante">
                             <i class="bi bi-house-door me-1"></i>
                             Sobre o restaurante
                         </a>
@@ -62,7 +62,8 @@
             </div>
         </div>
     </header>
-    <section id="sobre-o-restaurante">
+    <div data-bs-spy="scroll" data-bs-target="#header">
+        <section id="sobre-o-restaurante">
         <div class="carousel slide" data-bs-ride="carousel" id="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="1000">
@@ -90,13 +91,34 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-5">
-                            <img src="./img/restaurante.jpg" class="d-block w-100" alt="">
+                            <img src="./img/restaurante.jpg" class="d-block w-100 rounded" alt="">
                         </div>
-                        <div class="col-md-7"></div>
+                        <div class="col-md-7">
+                            <h2 class="section-title" >Sobre <span> o restaurante</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam nobis, 
+                                ducimus fugit odit necessitatibus at in, 
+                                consectetur ut doloremque facilis architecto quos. 
+                                Ipsa ipsum culpa doloribus fuga, ad sit eius.
+                            </p>
+                            <h3 class="section-title">Sobre <span>o espaço</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Eligendi provident modi nisi? 
+                                Accusantium corrupti quod reiciendis doloremque commodi totam, 
+                                excepturi harum velit error esse autem sunt corporis eos soluta sed.
+                            </p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-    </section>      
+    </section> 
+    </div>     
     <!-- Bootstrap 5.3 requer o uso do bootstrap.bundle.min.js em vez de bootstrap.min.js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
