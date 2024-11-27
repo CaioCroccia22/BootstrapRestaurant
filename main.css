@@ -60,11 +60,12 @@ img{
     font-family: Pacifico, cursive;
 }
 
-
-.section-title span{
+/* Cor de complemento do titulo */
+.text-colored{
     color: #e15f41;
 }
 
+/* Cor de fundo da section */
 #sobre-o-restaurante{
     background-color: #ffeae6;
 }
