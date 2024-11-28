@@ -1,4 +1,4 @@
-/* Body */
+/* ==========Body======= */
 body{
     font-family: Roboto, sans-serif;
 }
@@ -6,7 +6,7 @@ body{
 
 
 
-/* Navbar */
+/* ===========Navbar============ */
 
 
 /* Trocar a cor de fundo da navbar */
@@ -20,7 +20,7 @@ body{
     color: #e15f41;
 }
 
-
+/* trocar a cor da fonte dos menus de navegação*/
 #header .nav .nav-link,
 .nav .nav-link:hover,
 .navbar-brand,
@@ -35,7 +35,7 @@ body{
     font-family: Pacifico, cursive;
 }
 
-/* Caroussel */
+/* =============Caroussel========== */
 
 /* Definição de altura do carrosesel */
 .carousel.slide{
@@ -69,9 +69,11 @@ body{
 }
 
 /* Cor de fundo da section */
-#sobre-o-restaurante{
+#sobre-o-restaurante, #cardapio{
     background-color: #ffeae6;
 }
+
+/* =========Menu de navegação cardapio============ */
 
 .nav-cardapio .nav-link.active{
     background-color: #e15f41;
