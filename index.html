@@ -382,6 +382,8 @@
                 </div>
             </div>
         </section>
+
+        <!-- Section Fale Conosco -->
         <section id="fale-conosco">
             <div class="container">
                 <div class="row">
@@ -390,10 +392,56 @@
                 <div class="row">
                     <div class="col-md-7">
                         <form>
-                            <div>
-                                <label for="name">Seu nome:</label>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-colored" for="name">Seu nome:</label>
+                                <input type="text" id="name" placeholder="Digite seu nome" required class="form-control">
                             </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-colored" for="email">Seu e-mail:</label>
+                                <input type="text" id="email" placeholder="Digite seu nome" required class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-colored" for="tel">Seu telefone:</label>
+                                <input type="tel" id="tel" placeholder="Digite seu nome" required class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-colored" for="mensagem">Sua mensagem:</label>
+                                <textarea class="form-control" id="mensagem"></textarea>
+                            </div>
+                            <button type="submit" class="btn">Enviar</button>
                         </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-4">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-4 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-4">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>Rua teste exemplo n 145, Bairro Bootstrap - Santos - SP</p>
+                        </div>
                     </div>
                 </div>
             </div>
