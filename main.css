@@ -3,9 +3,6 @@ body{
     font-family: Roboto, sans-serif;
 }
 
-
-
-
 /* ===========Navbar============ */
 
 
@@ -98,4 +95,13 @@ body{
 #fale-conosco button{
     background-color: #e15f41;
     color: #fff;
+}
+
+@media (max-width: 767px ){
+    .carousel-item img{
+        height: 280px;
+    }
+    .carousel.slide{
+        height: 280px;
+    }
 }
